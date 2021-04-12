@@ -5,7 +5,7 @@ BUILD_DIR := build
 BIN_DIR := bin
 INCLUDE := -I./$(INC_DIR)
 
-$(BIN_DIR)/main : $(BUILD_DIR)/main.o $(BUILD_DIR)/md5.o
+$(BIN_DIR)/main : $(BUILD_DIR)/main.o $(BUILD_DIR)/md5.o $(BUILD_DIR)/hmac_md5.o
 	@mkdir -p $(BIN_DIR)
 	$(CC) $(INCLUDE) $^ -o $@
 

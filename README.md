@@ -6,7 +6,12 @@ MD5 algorithm implemented in C language.
 
 ```shell
 make
-./bin/md5 <input_string>
+./bin/md5 <INPUT_STRING>
+```
+
+```shell
+make
+./bin/hmacmd5 <INPUT_STRING> -key <KEY>
 ```
 
 ## How It Works

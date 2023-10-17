@@ -1,16 +1,15 @@
-# MD5 C
+# MD5 & HMAC-MD5
 
-MD5 algorithm implemented in C language.
+MD5 and HMAC-MD5 algorithm implemented in C language.
 
 ## Usage
 
 ```shell
 make
-./bin/md5 <INPUT_STRING>
 ```
 
 ```shell
-make
+./bin/md5 <INPUT_STRING>
 ./bin/hmacmd5 <INPUT_STRING> -key <KEY>
 ```
 
